@@ -1,0 +1,19 @@
+body {
+  background-color: #fff;
+}
+
+h1 {
+  color: #000;
+}
+
+.hex {
+  display: none;
+}
+
+#PageColors {
+  margin: 5px;
+  padding: 5px;
+  border-style: ridge;
+  border-width: thin;
+  background-color: #fff;
+}
