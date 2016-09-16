@@ -10,42 +10,77 @@
   <body>
 
     <div class="container">
-      <h1>What are your favorite colors?</h1><br>
-      <h4>Welcome to the hex color code developer tool!</h4>
-      <p>This page is a developer tool that will change the colors of this webpage and display the color hex codes based on your choices.</p><br>
-      <div id="PageColors">
-        <form>
-          <div class="form-group">
-            <label for="BgColor">Background Color</label>
-            <input id="BgColor" class="form-control" type="color" value="#ffffff">
-          </div>
-          <div class="hex">
-            <p>The background color is <span class="Input1"></span>.</p>
-          </div>
+      <div class="main">
+        <div id="Intro">
+          <h1>What are your favorite colors?</h1><br>
+          <h4>Welcome to the hex color code developer tool!</h4>
+          <p>This page is a developer tool that will change the colors of this webpage and display the color hex codes based on your choices.</p><br>
+        </div>
+        <div id="PageColors">
+          <form>
+            <div class="form-group">
+              <label for="BgColor">Webpage Background Color</label>
+              <div class="row">
+                <div class="col-xs-6">
+                  <input id="BgColor" class="form-control" type="color" value="#ffffff">
+                </div>
+              </div>
+            </div>
+            <div class="hex">
+              <p>The background color is <span class="OutputBg"></span>.</p>
+            </div>
 
-          <div class="form-group">
-            <label for="h1Color">Header 1 Color</label> <input id="h1Color" class="form-control" type="color" value="#000000">
-          </div>
-          <div class="hex">
-            <p>The header 1 color is <span class="Input2"></span>.</p>
-          </div>
+            <div class="form-group">
+              <label for="IntroColor">Intro Background Color</label>
+              <div class="row">
+                <div class="col-xs-6">
+                  <input id="IntroColor" class="form-control" type="color" value="#ffffff">
+                </div>
+              </div>
+            </div>
+            <div class="hex">
+              <p>The intro background color is <span class="OutputIntro"></span>.</p>
+            </div>
 
-          <div class="form-group">
-            <label for="h4Color">Header 4 Color</label> <input id="h4Color" class="form-control" type="color" value="#000000">
-          </div>
-          <div class="hex">
-            <p>The header 1 color is <span class="Input3"></span>.</p>
-          </div>
+            <div class="form-group">
+              <label for="h1Color">Header 1 Color</label>
+              <div class="row">
+                <div class="col-xs-6">
+                  <input id="h1Color" class="form-control" type="color" value="#000000">
+                </div>
+              </div>
+            </div>
+            <div class="hex">
+              <p>The header 1 color is <span class="OutputH1"></span>.</p>
+            </div>
 
-          <div class="form-group">
-            <label for="ParagraphColor">Paragraph Color</label> <input id="ParagraphColor" class="form-control" type="color" value="#000000">
-          </div>
-          <div class="hex">
-            <p>The header 1 color is <span class="Input4"></span>.</p>
-          </div>
+            <div class="form-group">
+              <label for="h4Color">Header 4 Color</label>
+              <div class="row">
+                <div class="col-xs-6">
+                  <input id="h4Color" class="form-control" type="color" value="#000000">
+                </div>
+              </div>
+            </div>
+            <div class="hex">
+              <p>The header 1 color is <span class="OutputH4"></span>.</p>
+            </div>
 
-          <button type="submit" class="btn btn-default">Submit</button>
-        </form>
+            <div class="form-group">
+              <label for="ParagraphColor">Paragraph Color</label>
+              <div class="row">
+                <div class="col-xs-6">
+                  <input id="ParagraphColor" class="form-control" type="color" value="#000000">
+                </div>
+              </div>
+            </div>
+            <div class="hex">
+              <p>The header 1 color is <span class="OutputP"></span>.</p>
+            </div>
+
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+        </div>
       </div>
     </div>
 

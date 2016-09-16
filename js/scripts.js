@@ -1,19 +1,22 @@
 $(document).ready(function () {
   $("#PageColors form").submit(function(event) {
     var background = $("input#BgColor").val();
+    var introBg = $("input#IntroColor").val();
     var header1 = $("input#h1Color").val();
     var header4 = $("input#h4Color").val();
     var paragraph = $("input#ParagraphColor").val();
 
     $("body").css("background-color", background);
+    $("#Intro").css("background-color", introBg);
     $("h1").css("color", header1);
     $("h4").css("color", header4);
     $("p").css("color", paragraph);
 
-    $(".Input1").text(background);
-    $(".Input2").text(header1);
-    $(".Input3").text(header4);
-    $(".Input4").text(paragraph);
+    $(".OutputBg").text(background);
+    $(".OutputIntro").text(introBg);
+    $(".OutputH1").text(header1);
+    $(".OutputH4").text(header4);
+    $(".OutputP").text(paragraph);
 
     $(".hex").show();
 

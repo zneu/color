@@ -10,10 +10,24 @@ h1 {
   display: none;
 }
 
-#PageColors {
-  margin: 5px;
-  padding: 5px;
+#Intro {
+  margin: 10px;
+  padding: 20px;
   border-style: ridge;
   border-width: thin;
   background-color: #fff;
+  text-align: center;
+}
+
+#PageColors {
+  margin: 10px;
+  padding: 20px;
+  border-style: ridge;
+  border-width: thin;
+  background-color: #fff;
+}
+
+.main {
+  padding: 10px;
+  margin: auto;
 }
